@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/159Z_2107.w026.n002.628B.p1.628.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+/* .container img {
+    width: 10%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+} */
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+}
+
+.brand {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.brand span {
+    color: cyan;
+}
+
+.wrapper img {
+    width: 15%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation li {
+    list-style-type: none;
+    color: #fff;
+    padding: 15px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.content p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content h1 span {
+    color: cyan;
+}
+
+.content button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    outline: none;
+    padding: 12px 24px;
+    color: #fff;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: ease-out .4s;
+}
+
+.content button:hover {
+    border: 2px solid cyan;
+    color: cyan;
+}
+ 
+.launch-time {
+    display: flex;
+}
+
+.launch-time div {
+    flex-basis: 115px;
+}
+
+.launch-time div p {
+    font-size: 60px;
+    margin-top: -10px;
+}
